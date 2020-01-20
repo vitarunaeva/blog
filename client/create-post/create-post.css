@@ -1,0 +1,30 @@
+.create-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post__title {
+    margin: 30px 35% 10px;
+}
+
+.create-post__block {
+    display: flex;
+    align-items: baseline;
+}
+
+.create-post__block label {
+    margin-right: 20px;
+}
+.create-post__btn {
+    padding: 10px 70px;
+    margin: 20px 0;
+}
+.posts-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ff0029;
+}
+
+.posts-link:hover {
+    border-bottom: 1px solid #ff0029;
+}

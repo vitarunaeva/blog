@@ -1,0 +1,21 @@
+.create-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-user__title {
+    margin: 30px 35% 10px;
+}
+
+.create-user__btn {
+    padding: 10px 70px;
+    margin: 20px 0;
+}
+
+
+.posts-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ff0029;
+}

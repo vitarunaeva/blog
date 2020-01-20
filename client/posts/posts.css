@@ -1,0 +1,29 @@
+.container h1 {
+    margin: 20px auto;
+}
+
+.posts__item {
+    display: block;
+    background: #ececec;
+    padding: 10px 20px;
+    margin: 0 0 30px 0;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.posts__categories {
+    color: #ff0029;
+}
+
+.registr-link {
+    background: #ff0029;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}

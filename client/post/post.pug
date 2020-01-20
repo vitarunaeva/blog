@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        meta(name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        meta(charset="UTF-8")
+        title Document
+        link(rel="stylesheet" href="../client/common/common.css")
+        link(rel="stylesheet" href="../client/post/post.css")
+    body
+        div.container
+            div.wrapper
+                a(href="/posts") Все посты
+                h1 Пост
+                if login
+                    div
+                        span.login #{login}
+                        a(href="/logout") Выйти
+                else
+                    a(href="/login") Войти
+            form(action="" class="post")
+                span#id(style="display:none") #{result._id}
+                h3.post__content #{result.title}
+                p.post__categories #{result.categories}
+                p.post__content #{result.content}
+            div.post__btns
+                a.post__btn.del.btn(href="/delete/" + result._id) Удалить
+                button.post__btn.change(type="submit") Редактировать
+            p.post__status
+        script(src="../client/common/common.js")
+        script(src="../client/post/post.js")

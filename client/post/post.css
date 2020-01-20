@@ -1,0 +1,29 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    /*border: 2px solid #cccccc;*/
+    background: #ececec;
+    border-radius: 4px;
+}
+
+.post__btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__btn.del {
+    background: lightcoral;
+    border-color: lightcoral;
+}
+
+.post__btn:hover,
+.post__btn:active {
+    opacity: 0.7;
+}
+
+.post__categories {
+    color: #ff0029;
+    font-style: italic;
+}
